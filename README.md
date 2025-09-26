@@ -12,10 +12,12 @@ The proliferation of Large Language Models (LLMs) has led to widespread AI-Gener
 ## Dataset Structure
 
 
-datasets/
-├── [training_set_human.jsonl](https://drive.google.com/file/d/1W3NC_vUD-8p9B9SlvywCGdeI7TTNuEFy/view?usp=sharing)     # Human-authored posts (pre-LLM period, before Nov 2022)
-├── [training_set_aigc.jsonl](https://drive.google.com/file/d/13-IQT2H_8sEgvfUtErYSYATf4L6AKtdW/view?usp=sharing)      # AI-generated posts using 17 LLMs
-└── [exploration_set.jsonl](https://drive.google.com/file/d/1Lnessv7szuUyCg8_Alx413Z7t4e4f1Et/view?usp=drive_link)        # Post-LLM period posts (2023-2025) for temporal analysis
+
+[training_set_human.jsonl](https://drive.google.com/file/d/1W3NC_vUD-8p9B9SlvywCGdeI7TTNuEFy/view?usp=sharing)     Human-authored posts (pre-LLM period, before Nov 2022)
+
+[training_set_aigc.jsonl](https://drive.google.com/file/d/13-IQT2H_8sEgvfUtErYSYATf4L6AKtdW/view?usp=sharing)      AI-generated posts using 17 LLMs
+
+[exploration_set.jsonl](https://drive.google.com/file/d/1Lnessv7szuUyCg8_Alx413Z7t4e4f1Et/view?usp=drive_link)        Post-LLM period posts (2023-2025) for temporal analysis
 
 
 ### Data Format
