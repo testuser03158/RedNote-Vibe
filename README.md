@@ -1,6 +1,6 @@
 # RedNote-Vibe Dataset
 
-**A Dataset for Capturing Temporal Dynamics of AI-Generated Text in Social Media** 
+**A Dataset for Capturing Temporal Dynamics of AI-Generated Text in Social Media** [arxiv](https://arxiv.org/abs/2509.22055)
 
 ![Dataset Overview](overview.png)
 
@@ -69,12 +69,12 @@ Distinguish between human-written and AI-generated content.
 
 ### 2. AI Provider Identification (6-way)
 Identify the source among six major AI providers:
-- OpenAI (GPT-3.5, GPT-4, GPT-4o, GPT-o3)
-- Google (Gemini-1.5, Gemini-2.0)
-- Anthropic (Claude-3.5-Sonnet, Claude-3.5-Haiku)
-- DeepSeek (DeepSeek-V2.5, DeepSeek-V3)
-- Alibaba (Qwen-2.5)
-- Others (Llama-3.1, etc.)
+- OpenAI
+- Google
+- Anthropic
+- DeepSeek
+- Qwen
+
 
 ### 3. Model Identification (17-way)
 Fine-grained identification among 17 specific AI models.
@@ -86,7 +86,15 @@ Fine-grained identification among 17 specific AI models.
 If you use this dataset in your research, please cite our paper:
 
 ```bibtex
-
+@misc{li2025rednotevibedatasetcapturingtemporal,
+      title={RedNote-Vibe: A Dataset for Capturing Temporal Dynamics of AI-Generated Text in Social Media}, 
+      author={Yudong Li and Yufei Sun and Yuhan Yao and Peiru Yang and Wanyue Li and Jiajun Zou and Yongfeng Huang and Linlin Shen},
+      year={2025},
+      eprint={2509.22055},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.22055}, 
+}
 ```
 
 ## License
